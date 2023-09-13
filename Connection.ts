@@ -20,7 +20,7 @@ class Conn {
   private path: string;
 
   constructor(modelsPath: string) {
-    this.db = new Sequelize("kwanso","root", "root", {
+    this.db = new Sequelize("kwanso","root", "", {
       host: "127.0.0.1",
       port: 3306,
       dialect: "mysql",
